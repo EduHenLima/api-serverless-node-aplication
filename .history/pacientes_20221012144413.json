@@ -1,0 +1,50 @@
+{
+    "PACIENTES": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "data_nascimento": {
+                        "s": "1984-01-01"
+                    },
+                    "email": {
+                        "s": "eduardo@gmail.com"
+                    },
+                    "nome": {
+                        "s": "eduardo"
+                    },
+                    "paciente_id": {
+                        "s": "1"
+                    },
+                    "status": {
+                        "BOOL": true
+                    },
+                    "telefone": {
+                        "s": "41999999999"
+                    }
+                }
+            },
+            "PutRequest": {
+                "Item": {
+                    "data_nascimento": {
+                        "s": "200-01-01"
+                    },
+                    "email": {
+                        "s": "ze@gmail.com"
+                    },
+                    "nome": {
+                        "s": "ze"
+                    },
+                    "paciente_id": {
+                        "s": "2"
+                    },
+                    "status": {
+                        "BOOL": true
+                    },
+                    "telefone": {
+                        "s": "41999999999"
+                    }
+                }
+            }
+        }
+    ]
+}

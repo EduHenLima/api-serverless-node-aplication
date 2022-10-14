@@ -1,0 +1,9 @@
+{
+    "PACIENTES": [
+        {
+            "PutRequest": {
+                "Item": {}
+            }
+        }
+    ]
+}

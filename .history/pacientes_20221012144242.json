@@ -1,0 +1,16 @@
+{
+    "PACIENTES": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "data_nascimento": {
+                        "s": "1984-01-01"
+                    },
+                    "email":
+                    "nome":
+                    ""
+                }
+            }
+        }
+    ]
+}

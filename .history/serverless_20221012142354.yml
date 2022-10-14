@@ -1,0 +1,42 @@
+
+service: cadastro-paciente
+frameworkVersion: '3'
+
+plugins:
+  - serverless-offline
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+stage: dev
+region: us-east-1
+
+functions:
+  listarPacientes:
+    handler: handler.listarPacientes
+    events:
+      - http:
+          path: pacientes
+          method: get 
+
+  obterPaciente:
+    handler: handler.obterPaciente
+    events:
+      - http:
+          path: pacientes/{pacienteId}
+          method: get 
+
+resources:
+  Resources:
+    PacientesTable:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        TableName: PACIENTES
+        AttributeDefinitions:
+          - AttributeName: paciente_id
+            AttributeType: S
+        KeySchema:
+          - AttributeName: paciente_id
+            KeyType: HASH
+        Provisio

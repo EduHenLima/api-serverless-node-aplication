@@ -1,0 +1,28 @@
+{
+    "PACIENTES": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "data_nascimento": {
+                        "s": "1984-01-01"
+                    },
+                    "email": {
+                        "s": "eduardo@gmail.com-01-01"
+                    },
+                    "nome": {
+                        "s": "1984-01-01"
+                    },
+                    "paciente_id": {
+                        "s": "1984-01-01"
+                    },
+                    "status": {
+                        "s": "1984-01-01"
+                    },
+                    "telefone": {
+                        "s": "1984-01-01"
+                    }
+                }
+            }
+        }
+    ]
+}

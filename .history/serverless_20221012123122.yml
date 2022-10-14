@@ -1,0 +1,12 @@
+
+service: cadastro-paciente
+
+frameworkVersion: '3'
+
+provider:
+  name: dev
+  runtime: nodejs12.x
+
+functions:
+  listarPacientes:
+    handler: handler.listarPacientes
